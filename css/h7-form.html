@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        form {
+            width: 100%;
+        }
+
+        label {
+            display: inline-block;
+            width: 70px;
+            margin-top: 6px;
+            margin-bottom: 8px;
+            
+        }
+        select {
+        border-radius: 3px;
+            background-color: #efefef;
+        }
+        textarea {
+            width: 98.2%;
+            margin-left: 2px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Payment Method</legend>
+        <label for="nameinput">Name</label>
+        <input type="text" placeholder="Please enter your full name">
+        <br>
+        <label for="">Email</label>
+        <input type="text" placeholder="Please enter your email">
+        <br>
+        <label for="">City:</label>
+        <select name="Cities" id="city">
+            <option value="">Toronto</option>
+            <option value="">London</option>
+            <option value="">Mississauga</option>
+        </select>
+        <br>
+        <label for="">Payment Options</label>
+        <input type="radio" name="paying">MasterCard
+        <input type="radio" name="paying">Visa
+        <input type="radio" name="paying">Paypal
+        <input type="radio" name="paying">Other
+    </fieldset>
+    <textarea name="comments" id="" cols="81" rows="10" placeholder="Please leave your comments"></textarea>
+    <input id="submit" type="submit" value="Submit">
+    <br>
+</body></html>
